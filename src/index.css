@@ -196,19 +196,24 @@ text-transform: uppercase;
   transition:  0.3s;
   transform: scale(0);
 }
-.todo-item:hover{
-  .todo-item__text{
-    &::after{
-      background-color: var(--default-color);
-      transform: scale(1);
-  
-    }
-  }
-  .todo-item__status .bi-check2{
-    color: var(--default-color);
-  }
 
-}  
+@media(hover:hover){
+  .todo-item:hover{
+    .todo-item__text{
+      &::after{
+        background-color: var(--default-color);
+        transform: scale(1);
+    
+      }
+    }
+    .todo-item__status .bi-check2{
+      color: var(--default-color);
+    }
+  
+  }  
+}
+
+
 .todo-item.todo-item--done {
   
   .todo-item__text::after{
