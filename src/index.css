@@ -261,7 +261,14 @@ text-transform: uppercase;
 
 }
 
+@media(max-width: 1000px){
+  .todo-item__remove-button {
+    
+    color: var(--primary-color);
 
+  
+  }
+}
 
 .todo-item__remove-button:hover {
   color: var(--primary-color);
