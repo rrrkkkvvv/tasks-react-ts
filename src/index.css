@@ -248,15 +248,15 @@ text-transform: uppercase;
 }
 
 .todo-item__remove-button {
-  opacity: 0;
+  opacity:1;
   color: var(--secondary-color);
   transition:  0.3s;
   cursor: pointer;
+  font-size: 2rem;
+
 }
 
-.todo-item:hover .todo-item__remove-button {
-  opacity: 1;
-}
+
 
 .todo-item__remove-button:hover {
   color: var(--primary-color);
